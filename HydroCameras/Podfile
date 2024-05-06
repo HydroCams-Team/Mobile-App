@@ -1,0 +1,14 @@
+platform :ios, '13.0'
+project '/Users/jenniebutch/HydroCameras/ios/App/App.xcodeproj'
+target 'App' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for YourApp
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Capacitor', :path => '../node_modules/@capacitor/ios'
+
+  # Add other pods you need here
+end
+
